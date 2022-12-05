@@ -11,7 +11,7 @@
 		</header>
 		<section>
 			<ul>
-				<li @click='goPath'>地址管理</li>
+				<li @click='goPath'>地址的管理</li>
 				<li v-if='loginStatus' @click='loginOut'>退出登录</li>
 			</ul>
 		</section>
